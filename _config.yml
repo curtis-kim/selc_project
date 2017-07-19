@@ -1,8 +1,8 @@
 # Site settings
 title: 
-subtitle: Curtis Gibeom Kim
+subtitle: SELC PROJECT WEBSITE
 email: curtisk808@gmail.com
-description: ZB.com
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 #exclude: []
 url: "" # the base hostname & protocol for your site
@@ -16,8 +16,8 @@ author: curtis gibeom kim
 
 # Social settings
 500px_url:
-facebook_url: https://www.facebook.com/curtisgibeomkim
-github_url: https://github.com/zeebeum
+facebook_url: 
+github_url: 
 gitlab_url: 
 googleplus_url: 
 instagram_url: 
