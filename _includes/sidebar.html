@@ -1,0 +1,63 @@
+<!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+
+      <!-- Search -->
+        <section id="search" class="alt">
+          <form method="post" action="#">
+            <input type="text" name="query" id="query" placeholder="Search" />
+          </form>
+        </section>
+
+      <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="{{ '' | absolute_url }}">Home</a></li>
+            <li><a href="{{ 'generic.html' | absolute_url }}">Profile</a></li>
+            
+            <li>
+              <span class="opener">Portfolio</span>
+              <ul>
+                <li><a href="{{ 'posts/Titanic_Kaggle_dataset.html' | absolute_url }}">Titanic Machine Learning</a></li>
+                <li><a href="{{ 'posts/LC_Final_Report.html' | absolute_url }}">Lending Club Default Classification</a></li>
+                <li><a href="{{ 'posts/projectlc2_Kor.html' | absolute_url }}">Lending Club Default Classification(Kor.)</a></li>
+                
+              </ul>
+            </li>
+            
+            <li><a href=#>Data Science</a></li>
+
+
+
+            <li><a href="#">Music</a></li>
+           
+           
+          </ul>
+        </nav>
+
+      <!-- Section -->
+        
+
+      <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Get in touch</h2>
+          </header>
+          <p>Send Email</p>
+          <ul class="contact">
+            <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+            
+           
+          </ul>
+        </section>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+        </footer>
+
+    </div>
+  </div>
