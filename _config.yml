@@ -3,7 +3,7 @@ title:
 subtitle: SELC PROJECT WEBSITE
 email: curtisk808@gmail.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /selc_proejct # the subpath of your site, e.g. /blog
 #exclude: []
 url: "" # the base hostname & protocol for your site
 author: curtis gibeom kim
